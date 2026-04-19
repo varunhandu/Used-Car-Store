@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, sans-serif;
+  --color-primary: #2563eb;
+  --color-primary-dark: #1e40af;
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text-main: #1e293b;
+  --color-text-muted: #64748b;
+  --color-border: #e2e8f0;
+  --color-accent: #10b981;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-text-main antialiased font-sans m-0 p-0 overflow-hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+.card {
+  @apply bg-surface rounded-xl border border-border shadow-sm overflow-hidden flex flex-col transition-all;
+}
+
+.card:hover {
+  @apply shadow-md;
+}
+
+.search-btn {
+  @apply bg-primary text-white border-none py-3 px-6 rounded-lg font-semibold cursor-pointer transition-colors hover:bg-primary-dark disabled:opacity-50 disabled:cursor-not-allowed;
+}

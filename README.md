@@ -34,3 +34,23 @@ fuel_type
 )
 
 ## UI
+UI needs to be able to call the endpoints in a strategic manner.
+
+It will distinguish between Naive and Enthusiast Users
+
+Depending on the type, they will ask them the required questions.
+
+#### General
+
+Select the chips which contain values which are non-negotiables
+Efficient (mileage >= 12, BodyType == Hatchback, BHP <= 100)
+Performance (bhp > 100, engine > 1200 , BodyType != Hatchback)
+Comfort (Transmission != Manual, BodyType == SUV)
+Safety (Safety rating > 3)
+
+Press Submit
+
+#### Enthusiast
+
+Select from dropdown : Transmission, Fuel Type
+Mention in input validated text fields: Min User Rating, Min Power

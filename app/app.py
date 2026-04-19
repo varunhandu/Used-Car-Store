@@ -4,6 +4,7 @@ import models
 from database import SessionLocal, engine
 from fastapi import Depends, FastAPI
 from fastapi.exceptions import HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from schemas import CarResponse, EnthusiastRequest, GeneralRequest
 from sqlalchemy.orm import Session
 
@@ -11,6 +12,14 @@ from sqlalchemy.orm import Session
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Car Recommendation API")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # ["http://localhost:3000"],  # Specify allowed origins
+    allow_credentials=True,  # Allow cookies and authorization headers
+    allow_methods=["GET", "POST"],  # Allowed HTTP methods
+    allow_headers=["*"],  # Allow all headers
+)
 
 
 # Dependency to get DB session
