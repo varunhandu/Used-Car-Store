@@ -8,7 +8,7 @@ import { Car, EnthusiastRequest, GeneralRequest } from "../models/car";
 })
 export class CarService {
   private http = inject(HttpClient);
-  private apiUrl = "http://localhost:8000";
+  private apiUrl = "https://used-car-store-5equ.onrender.com";
 
   results = signal<Car[]>([]);
   isLoading = signal<boolean>(false);
