@@ -1,0 +1,61 @@
+manufacturer,model,price,mileage,engine_cc,power_bhp,body_type,fuel_type,transmission,safety_rating,average_user_rating
+Toyota,Corolla Altis G,25000,14.5,1798,138,Sedan,Petrol,Manual,5,4.5
+Toyota,Corolla Altis GL,28000,14.0,1798,138,Sedan,Petrol,CVT,5,4.6
+Honda,Civic V,26000,16.5,1799,140,Sedan,Petrol,CVT,5,4.7
+Honda,Civic ZX,30000,16.5,1799,140,Sedan,Petrol,CVT,5,4.8
+Hyundai,Verna S,18000,17.7,1497,113,Sedan,Petrol,Manual,5,4.3
+Hyundai,Verna SX(O) Turbo,23000,18.6,1482,158,Sedan,Petrol,DCT,5,4.5
+Volkswagen,Virtus GT Line,22000,18.1,1498,148,Sedan,Petrol,DCT,5,4.6
+Skoda,Slavia Style,21500,18.7,1498,148,Sedan,Petrol,Manual,5,4.5
+Ford,Mustang GT,75000,7.5,4951,450,Coupe,Petrol,Automatic,4,4.9
+BMW,M3 Competition,95000,8.2,2993,503,Sedan,Petrol,Automatic,5,4.9
+Mercedes-Benz,C-Class C200,65000,12.5,1496,201,Sedan,Petrol,Automatic,5,4.7
+Audi,A4 Premium Plus,55000,17.4,1984,190,Sedan,Petrol,Automatic,5,4.6
+Tata,Nexon EV Max,22000,150.0,0,141,SUV,Electric,Automatic,5,4.7
+Tesla,Model 3 Long Range,47000,180.0,0,346,Sedan,Electric,Automatic,5,4.8
+Mahindra,XUV700 AX7 L,32000,13.0,2198,182,SUV,Diesel,Automatic,5,4.8
+Suzuki,Swift ZXi,11000,22.4,1197,89,Hatchback,Petrol,Manual,2,4.2
+Suzuki,Swift VXi AMT,10000,22.6,1197,89,Hatchback,Petrol,AMT,2,4.1
+Kia,Seltos HTX,20000,17.0,1497,113,SUV,Petrol,Manual,3,4.4
+Kia,Seltos GTX+ Plus,25000,17.5,1482,158,SUV,Petrol,DCT,3,4.6
+Porsche,911 Carrera S,130000,9.1,2981,444,Coupe,Petrol,Automatic,5,5.0
+Ferrari,296 GTB,350000,6.5,2992,818,Coupe,Petrol,Automatic,5,4.9
+Jeep,Compass Limited,30000,14.9,1956,168,SUV,Diesel,Manual,5,4.3
+Jeep,Compass Model S,35000,14.5,1956,168,SUV,Diesel,Automatic,5,4.5
+Toyota,Fortuner Legender,55000,10.5,2755,201,SUV,Diesel,Automatic,5,4.7
+Toyota,Innova Hycross,35000,23.2,1987,184,MPV,Hybrid,CVT,5,4.8
+Volvo,XC90 Recharge,100000,40.0,1969,455,SUV,Hybrid,Automatic,5,4.9
+Land Rover,Defender 110,110000,9.5,2996,395,SUV,Petrol,Automatic,5,4.9
+MG,Hector Sharp,25000,13.5,1956,168,SUV,Diesel,Manual,5,4.4
+Nissan,Magnite XV,12000,18.7,999,71,SUV,Petrol,Manual,4,4.1
+Renault,Kiger RXZ Turbo,14000,19.0,999,99,SUV,Petrol,CVT,4,4.2
+Lexus,ES 300h Exquisite,65000,22.5,2487,214,Sedan,Hybrid,CVT,5,4.8
+Lexus,RX 500h F-Sport,95000,18.8,2393,366,SUV,Hybrid,Automatic,5,4.7
+Volkswagen,Tiguan Exclusive,42000,12.6,1984,187,SUV,Petrol,DCT,5,4.5
+Skoda,Kodiaq L&K,45000,12.7,1984,187,SUV,Petrol,DCT,5,4.7
+Mazda,MX-5 Miata RF,36000,14.8,1998,181,Convertible,Petrol,Manual,4,4.9
+Mazda,CX-5 Turbo,38000,11.5,2488,250,SUV,Petrol,Automatic,5,4.6
+Subaru,WRX Limited,32000,10.2,2387,271,Sedan,Petrol,Manual,5,4.4
+Subaru,Outback Onyx Edition,35000,12.5,2387,260,SUV,Petrol,CVT,5,4.5
+Lamborghini,Huracan Evo,260000,7.2,5204,631,Coupe,Petrol,Automatic,4,4.9
+Aston Martin,Vantage V8,150000,8.5,3982,503,Coupe,Petrol,Automatic,5,4.8
+Mclaren,720S,310000,6.8,3994,710,Coupe,Petrol,Automatic,4,4.9
+Bentley,Continental GT V8,220000,8.0,3996,542,Coupe,Petrol,Automatic,5,4.9
+Rolls-Royce,Ghost V12,340000,6.5,6750,563,Sedan,Petrol,Automatic,5,5.0
+Jaguar,F-Type R-Dynamic,78000,10.5,1997,296,Coupe,Petrol,Automatic,5,4.6
+Land Rover,Range Rover Vogue,125000,9.8,2997,345,SUV,Diesel,Automatic,5,4.8
+Lucid,Air Pure,75000,200.0,0,480,Sedan,Electric,Automatic,5,4.7
+Rivian,R1S Adventure,85000,160.0,0,835,SUV,Electric,Automatic,5,4.8
+Hyundai,Ioniq 5 Limited,52000,185.0,0,320,SUV,Electric,Automatic,5,4.9
+Kia,EV6 GT,62000,175.0,0,576,SUV,Electric,Automatic,5,4.8
+Genesis,GV80 Prestige,72000,9.5,3470,375,SUV,Petrol,Automatic,5,4.7
+Infiniti,QX60 Luxe,55000,10.8,3498,295,SUV,Petrol,Automatic,5,4.3
+Acura,Integra Type S,52000,11.9,1996,320,Sedan,Petrol,Manual,5,4.8
+Honda,Accord Hybrid,34000,21.5,1993,204,Sedan,Hybrid,CVT,5,4.6
+Toyota,Camry XSE,35000,13.5,2487,206,Sedan,Petrol,Automatic,5,4.5
+Ford,F-150 Lightning,60000,120.0,0,452,Pickup,Electric,Automatic,5,4.6
+Chevrolet,Corvette Z06,110000,6.4,5500,670,Coupe,Petrol,Automatic,4,4.9
+Dodge,Challenger Hellcat,75000,6.8,6166,717,Coupe,Petrol,Automatic,4,4.7
+Nissan,Z Performance,52000,9.4,2997,400,Coupe,Petrol,Manual,4,4.6
+Mitsubishi,Outlander PHEV,42000,35.0,2360,248,SUV,Hybrid,Automatic,5,4.4
+Volvo,S60 Recharge,55000,42.0,1969,455,Sedan,Hybrid,Automatic,5,4.7
